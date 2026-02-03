@@ -11,4 +11,8 @@ echo "* restore niri scripts"
 mkdir -p ~/.config/niri/
 cp -r config/niri_noctalia_eos/* ~/.config/niri/
 
+echo "* restore mpv scripts"
+mkdir -p ~/.config/mpv/
+cp -r config/mpv/* ~/.config/mpv/
+
 echo "done"

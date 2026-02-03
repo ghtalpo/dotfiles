@@ -11,4 +11,8 @@ echo "* backup niri config"
 mkdir -p config/niri_noctalia_eos/
 cp -r ~/.config/niri/* config/niri_noctalia_eos/
 
+echo "* backup mpv config"
+mkdir -p config/mpv/
+cp -r ~/.config/mpv/* config/mpv/
+
 echo "done"
