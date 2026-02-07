@@ -93,8 +93,7 @@
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "  {signalStrength}%",
         "tooltip-format": "   {essid}",
-        "format-disconnected": "\uf3dd Off",
-      	"on-click": "nmtui",
+        "format-disconnected": "\uf3dd Off"
     },
     "wireplumber": {
       "node-type": "Audio/Sink",
