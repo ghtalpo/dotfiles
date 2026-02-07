@@ -8,20 +8,24 @@ size = 12.0
 
 [font.bold]
 #family = "monospace"
-family = "FiraCode Nerd Font Mono"
+#family = "FiraCode Nerd Font Mono"
+family = "Fira Code"
 style = "Bold"
 
 [font.bold_italic]
 #family = "monospace"
-family = "FiraCode Nerd Font Mono"
+#family = "FiraCode Nerd Font Mono"
+family = "Fira Code"
 style = "Bold Italic"
 
 [font.italic]
 #family = "monospace"
-family = "FiraCode Nerd Font Mono"
+#family = "FiraCode Nerd Font Mono"
+family = "Fira Code"
 style = "Italic"
 
 [font.normal]
 #family = "monospace"
-family = "FiraCode Nerd Font Mono"
+#family = "FiraCode Nerd Font Mono"
+family = "Fira Code"
 style = "Regular"
