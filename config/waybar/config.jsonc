@@ -19,7 +19,7 @@
             "memory",
             "disk",
             "wireplumber",
-            "pulseaudio",
+            //            "pulseaudio",
             "backlight",
             "tray",
             "battery"
