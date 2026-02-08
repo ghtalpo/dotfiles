@@ -24,13 +24,13 @@
     color: @foreground-inactive;
 }
 
+#cpu,
 #memory,
-#custom-platform-profile {
-    padding-left: 1em
-}
-
+#disk,
 #wireplumber,
+#backlight,
 #battery,
+#tray,
 #idle_inhibitor,
 #language,
 #network,

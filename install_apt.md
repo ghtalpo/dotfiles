@@ -18,9 +18,13 @@
   libinput-dev
   libxkbcommon-dev
   fuzzel alacritty
-  swayidle swaylock
+  swayidle swaylock swaybg
   waybar
   fonts-firacode
+  wireplumber
   fcitx5 fcitx5-hangul fcitx5-configtool
+  emptty
 # remove
   xwaylandvideobridge
+# start emptty
+  sudo systemctl status emptty@tty8.service
