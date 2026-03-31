@@ -108,6 +108,18 @@ input {
 
 output "eDP-1" {
     scale 1.75
+
+    // disable hot-corners jkim
+    hot-corners {
+        off
+    }
+}
+
+output "DP-2" {
+    // disable hot-corners jkim
+    hot-corners {
+        off
+    }
 }
 
 // Settings that influence how windows are positioned and sized.
@@ -273,10 +285,10 @@ layout {
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
 // Do not: better spawn from systemctl
-//spawn-at-startup "waybar"
+spawn-at-startup "waybar"
 spawn-at-startup "fcitx5"
 spawn-at-startup "swaybg" "-m" "fill" "-i" "wallpapers/Endy_vector_satelliet.png"
-spawn-at-startup "lxqt-policykit-agent" // to mount partion from thunar
+//spawn-at-startup "lxqt-policykit-agent" // to mount partion from thunar
 spawn-at-startup "swayidle" "-w" "timeout" "601" "niri msg action power-off-monitors" "timeout" "600" "s
 waylock -f" "before-sleep" "swaylock -f"
 
