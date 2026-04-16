@@ -115,6 +115,13 @@ output "eDP-1" {
     }
 }
 
+output "DP-1" {
+    // disable hot-corners jkim
+    hot-corners {
+        off
+    }
+}
+
 output "DP-2" {
     // disable hot-corners jkim
     hot-corners {
