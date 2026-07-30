@@ -11,4 +11,8 @@ echo "* backup niri config"
 mkdir -p config/niri_noctalia_debian/
 cp -r ~/.config/niri/* config/niri_noctalia_debian/
 
-echo "done"
+echo "* backup alacritty config"
+mkdir -p config/alacritty/
+cp -r ~/.config/alacritty/* config/alacritty/
+
+gecho "done"

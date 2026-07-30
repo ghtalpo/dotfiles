@@ -11,4 +11,8 @@ echo "* restore niri scripts"
 mkdir -p ~/.config/niri/
 cp -r config/niri_noctalia_debian/* ~/.config/niri/
 
+echo "* restore alacritty scripts"
+mkdir -p ~/.config/alacritty/
+cp -r config/alacritty/* ~/.config/alacritty/
+
 echo "done"
