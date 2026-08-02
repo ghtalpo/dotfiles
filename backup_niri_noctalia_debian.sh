@@ -15,4 +15,4 @@ echo "* backup alacritty config"
 mkdir -p config/alacritty/
 cp -r ~/.config/alacritty/* config/alacritty/
 
-gecho "done"
+echo "done"
