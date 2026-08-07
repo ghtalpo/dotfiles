@@ -283,6 +283,8 @@ environment {
 spawn-at-startup "fcitx5"
 spawn-at-startup "noctalia"
 
+spawn-at-startup "lxpolkit" // mount partition from thunar
+
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 
