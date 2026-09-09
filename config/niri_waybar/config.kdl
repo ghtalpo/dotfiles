@@ -661,6 +661,7 @@ binds {
 environment {
     XDG_CURRENT_DESKTOP "niri"
     XDG_DATA_DIRS "~/.local/share/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/flatpak/exports/share"
+    _JAVA_AWT_WM_NONREPARENTING "1"
 }
 
 recent-windows {
